@@ -15,7 +15,7 @@ Please refer to https://github.com/zhengyushan/tcga2tile.
 '''
 
 # TCGA Lung dataset
-data_list_dir = '/kaggle/working/kat-wsi-tcga/dataset/tcga_lung'
+data_list_dir = '/kaggle/working/KAT_Updated/dataset/tcga_lung'
 
 # Make slide list
 train_slide_list = []
