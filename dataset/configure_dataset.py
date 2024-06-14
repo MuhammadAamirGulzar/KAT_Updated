@@ -54,7 +54,7 @@ tasks = {
     2:{'num_classes':2, 'map':{0:0, 1:1, 2:1}},
 }
 
-with open('/kaggle/working/kat-wsi-tcga/dataset/tcga_lung/dataset_config.pkl', 'wb') as f:
+with open('/kaggle/working/KAT_Updated/dataset/tcga_lung/dataset_config.pkl', 'wb') as f:
     pickle.dump(
         {'tasks':tasks,
         'lesions':lesions,
